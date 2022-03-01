@@ -1,0 +1,3 @@
+RewriteEngine On
+Options All -Indexes
+RewriteRule ^([a-zA-ZO-9/ñÑ-]+)$ index.php?ruta=$l
